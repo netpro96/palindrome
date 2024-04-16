@@ -1,0 +1,111 @@
+
+body{
+    background-color: #496989;
+    margin-top: 8%;
+    
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#main-div, #information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 30px;
+    border-top-left-radius: 10% 30%;
+    border-top-right-radius: 10% 30%;
+    border-bottom-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+    height: 155px;
+}
+
+#information{
+    margin-top: 50px;
+    background-color: #6AD4DD;
+}
+
+.information{
+    text-align: center;
+    justify-content: center;
+}
+
+input, button{
+    margin-right: 30%;
+    
+}
+
+input{
+    margin-right: 5%;
+    width: 400px !important;
+    height: 25px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-bottom: 3px solid #97E7E1;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#check-btn{
+    width: 250px !important;
+    height: 30px !important;
+    font-family: "Roboto", sans-serif;
+    background-color: #97E7E1;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#form{
+    display: flex;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.information{
+    padding-top: 25px;
+}
+
+
+
+@media all and (max-width: 1050px){
+
+    body{
+        margin-top: 25%;
+        margin-right: 60%;
+        
+    }
+
+    h1{
+        margin-left: -25%;
+        height: 100px;
+        text-align: center !important;
+        width: 650px;
+    }
+
+    div{
+        margin-right: 25%;
+        width: 400px;
+    }
+
+    #main-div, #information{
+        margin-right: 25% !important;
+    }
+
+}
+
